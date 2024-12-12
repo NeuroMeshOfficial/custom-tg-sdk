@@ -1,5 +1,5 @@
 {
-  "name": "@twa-dev/sdk",
+  "name": "@twa-dev-custom/sdk",
   "version": "8.0.1",
   "main": "dist/index.js",
   "sideEffects": [
