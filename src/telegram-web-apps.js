@@ -3003,10 +3003,7 @@
       console.error('[Telegram.WebApp] Method downloadFile is not supported in version ' + webAppVersion);
       throw Error('WebAppMethodUnsupported');
     }
-    if (webAppDownloadFileRequested) {
-      console.error('[Telegram.WebApp] Popup is already opened');
-      throw Error('WebAppDownloadFilePopupOpened');
-    }
+   
     var a = document.createElement('A');
 
     var dl_params = {};
