@@ -2997,7 +2997,6 @@
         }
         if (WebAppShareMessageOpened) {
             console.error('[Telegram.WebApp] Share message is already opened');
-            throw Error('WebAppShareMessageOpened');
         }
         WebAppShareMessageOpened = {
             callback: callback
