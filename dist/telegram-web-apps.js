@@ -2995,9 +2995,6 @@
             console.error('[Telegram.WebApp] Method shareMessage is not supported in version ' + webAppVersion);
             throw Error('WebAppMethodUnsupported');
         }
-        if (WebAppShareMessageOpened) {
-            console.error('[Telegram.WebApp] Share message is already opened');
-        }
         WebAppShareMessageOpened = {
             callback: callback
         };
